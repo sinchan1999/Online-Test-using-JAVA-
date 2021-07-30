@@ -102,57 +102,93 @@ class OnlineTest extends JFrame implements ActionListener
         if(current==0)  
         {  
             l.setText("Que1: Which of the following is a reserved keyword in Java?");  
-            jb[0].setText("object");jb[1].setText("strictfp");jb[2].setText("main");jb[3].setText("system");   
+            jb[0].setText("object");
+            jb[1].setText("strictfp");
+            jb[2].setText("main");
+            jb[3].setText("system");   
         }  
+        
         if(current==1)  
         {  
             l.setText("Que2: Which of the following is not a Java features?");  
-            jb[0].setText("Dynamic");jb[1].setText("Architecture Neutral");jb[2].setText("Use of pointers");jb[3].setText("Object-oriented");  
+            jb[0].setText("Dynamic");
+            jb[1].setText("Architecture Neutral");
+            jb[2].setText("Use of pointers");
+            jb[3].setText("Object-oriented");  
         }  
+        
         if(current==2)  
         {  
             l.setText("Que3: _____ is used to find and fix bugs in the Java programs.");  
-            jb[0].setText("JVM");jb[1].setText("JRE");jb[2].setText("JDK");jb[3].setText("JDB");  
+            jb[0].setText("JVM");
+            jb[1].setText("JRE");
+            jb[2].setText("JDK");
+            jb[3].setText("JDB");  
         }  
+        
         if(current==3)  
         {  
             l.setText("Que4:  What is the return type of the hashCode() method in the Object class?");  
-            jb[0].setText("Object");jb[1].setText("int");jb[2].setText("long");jb[3].setText("void");  
+            jb[0].setText("Object");
+            jb[1].setText("int");
+            jb[2].setText("long");
+            jb[3].setText("void");  
         }  
+        
         if(current==4)  
         {  
             l.setText("Que5: Which of the following is a valid long literal?");  
-            jb[0].setText("ABH8097");jb[1].setText("L990023");jb[2].setText("904423");jb[3].setText("0xnf029L");  
+            jb[0].setText("ABH8097");
+            jb[1].setText("L990023");
+            jb[2].setText("904423");
+            jb[3].setText("0xnf029L");  
         }  
+        
         if(current==5)  
         {  
             l.setText("Que6: What does the expression float a = 35 / 0 return?");  
-            jb[0].setText("0");jb[1].setText("Not a Number");jb[2].setText("Infinity");jb[3].setText("Run time exception");  
+            jb[0].setText("0");
+            jb[1].setText("Not a Number");
+            jb[2].setText("Infinity");
+            jb[3].setText("Run time exception");  
         }  
+        
         if(current==6)  
         {  
             l.setText("Que7: What is meant by the classes and objects that dependents on each other? ");  
-            jb[0].setText("Tight Coupling");jb[1].setText("Cohesion");jb[2].setText("Loose Coupling");  
-                        jb[3].setText("None of the above");  
-        }  
+            jb[0].setText("Tight Coupling");
+            jb[1].setText("Cohesion");
+            jb[2].setText("Loose Coupling");  
+            jb[3].setText("None of the above");  
+        } 
+        
         if(current==7)  
         {  
             l.setText("Que8: How many threads can be executed at a time?");  
-            jb[0].setText("Only one thread");jb[1].setText("Multiple threads");
+            jb[0].setText("Only one thread");
+            jb[1].setText("Multiple threads");
             jb[2].setText("Only main (main() method) thread");
             jb[3].setText("Two threads");         
         }  
+        
         if(current==8)  
         {  
             l.setText("Que9: An interface with no fields or methods is known as a ______.");  
-            jb[0].setText("Runnable Interface");jb[1].setText("Marker Interface");jb[2].setText("Abstract Interface");jb[3].setText("CharSequence Interface");  
+            jb[0].setText("Runnable Interface");
+            jb[1].setText("Marker Interface");
+            jb[2].setText("Abstract Interface");
+            jb[3].setText("CharSequence Interface");  
         }  
+        
         if(current==9)  
         {  
             l.setText("Que10:  Which of the following is an immediate subclass of the Panel class?");  
-            jb[0].setText("Applet class");jb[1].setText("Window class");jb[2].setText("Frame class");  
-                        jb[3].setText("Dialog class");  
+            jb[0].setText("Applet class");
+            jb[1].setText("Window class");
+            jb[2].setText("Frame class");
+            jb[3].setText("Dialog class");  
         }  
+        
         l.setBounds(30,40,450,20);  
         for(int i=0,j=0;i<=90;i+=30,j++)  
             jb[j].setBounds(50,80+i,200,20);  
